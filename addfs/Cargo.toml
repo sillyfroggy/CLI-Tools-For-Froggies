@@ -1,0 +1,16 @@
+[package]
+name = "addfs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "A tool to add 2+ files"
+readme = "README.md"
+homepage = "https://github.com/sillyfroggy/sillyfroggy"
+repository = "https://github.com/sillyfroggy/sillyfroggy"
+keywords = ["cli", "add", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "4.5.4"
